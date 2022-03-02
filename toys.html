@@ -38,66 +38,81 @@
         </section>
 
         <section>
-            <h4>Cost</h4> 
-            <input type="range">
-            <fieldset>
-                <legend>Color</legend>
-                <ul>
-                    <li>
-                        <input type="checkbox" id="check-Black" name="Black">
-                        <label for="check-Black">Black</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" id="check-Blue" name="Blue">
-                        <label for="check-Blue">Blue</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" id="check-Green" name="Green">
-                        <label for="check-Green">Green</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" id="check-White" name="White">
-                        <label for="check-White">White</label>
-                    </li>
-                </ul>
-            </fieldset>
+            <div>
+                <span>Cost</span>
+            </div>
+            
+            <div><input type="range"></div>
+            
+            <div class="Color">
+                        <div>
+                            <span>Color</span>
+                        </div>
+                        <ul>
+                            <li>
+                                <input type="checkbox" id="check-Black" name="Black">
+                                <label for="check-Black">Black</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="check-Blue" name="Blue">
+                                <label for="check-Blue">Blue</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="check-Green" name="Green">
+                                <label for="check-Green">Green</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="check-White" name="White">
+                                <label for="check-White">White</label>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <div>
+                            <legend>Delivery</legend>
+                        </div>
+                        
+                        <ul>
+                        <li>
+                            <input type="radio" id="radio-Freeshipping" name="shipping">
+                            <label for="radio-Freeshipping">Free shipping</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="radio-Fastshipping" name="shipping">
+                            <label for="radio-Fastshipping">Fast shipping</label>
+                        </li>
+                        </ul>
+                        </div>
+                    
+                    <div>
+                        <div>
+                            <legend>Amount</legend>
+                        </div>
+                        
+                        <ul>
+                            <li>
+                                <input type="radio" id="radio-0-5" name="nt">
+                                <label for="radio-0-5">0-5</label>
+                            </li>
+                            <li>
+                                <input type="radio" id="radio-10-20" name="nt">
+                                <label for="radio-10-20">10-20</label>
+                            </li>
+                            <li>
+                                <input type="radio" id="radio-20-50" name="nt">
+                                <label for="radio-20-50">20-50</label>
+                            </li>
+                         </ul>
+                    </div>
 
-            <fieldset>
-                <legend>Delivery</legend>
-                <ul>
-                    <li>
-                        <input type="radio" id="radio-Freeshipping" name="shipping">
-                        <label for="radio-Freeshipping">Free shipping</label>
-                    </li>
-                    <li>
-                        <input type="radio" id="radio-Fastshipping" name="shipping">
-                        <label for="radio-Fastshipping">Fast shipping</label>
-                    </li>
-                </ul>
-            </fieldset>
-
-            <fieldset>
-                <legend>Amount</legend>
-                <ul>
-                    <li>
-                        <input type="radio" id="radio-0-5" name="nt">
-                        <label for="radio-0-5">0-5</label>
-                    </li>
-                    <li>
-                        <input type="radio" id="radio-10-20" name="nt">
-                        <label for="radio-10-20">10-20</label>
-                    </li>
-                    <li>
-                        <input type="radio" id="radio-20-50" name="nt">
-                        <label for="radio-20-50">20-50</label>
-                    </li>
-                </ul>
-                <button>Apply</button>
-            </fieldset>
-
+                    <div>
+                        <button>Apply</button>
+                    </div>
+            
         </section>
 
-        <section>
+        <section class="product">
 
             <ul>
                 <li>
